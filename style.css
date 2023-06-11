@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  background-color: white;
+  background-color: #333;
   color: black;
   max-width: 800px;
   margin: auto;
@@ -14,29 +14,31 @@ body {
 }
 
 @media screen and (min-width: 1428px) {
-  
+
 }
 
 @media screen and (min-width:767px) and (max-width:1023px) {
 
 }
-  
+
 @media screen and (max-width:767px) {
-  
+
 }
 
-@media (prefers-color-scheme: dark) {
-  .container {
-    background-color: #333333;
-    color: #ffffff;
-    
-  }
-}
+
 
 @media (min-width: 420px) {
   .container {
-    background-color: #333333;
+    background-color: #fff;
     color: #ffffff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .container {
+      background-color: #333;
+      color: #ffffff;
+
+    }
   }
 }
 
